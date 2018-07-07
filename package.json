@@ -1,0 +1,22 @@
+{
+  "name": "qwil-task",
+  "version": "1.0.0",
+  "description": "Qwil task",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevhenii-dovhaniuk/qwil-task.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Yevhenii Dovhaniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yevhenii-dovhaniuk/qwil-task/issues"
+  },
+  "homepage": "https://github.com/yevhenii-dovhaniuk/qwil-task#readme"
+}
