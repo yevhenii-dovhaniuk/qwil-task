@@ -1,0 +1,2 @@
+test/**/*test.ts
+--timeout 20000

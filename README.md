@@ -13,12 +13,8 @@ npm install
 ```
 npm start
 ```
-or 
-```
-node server.js
-```
 
 ## Test
 ```
-npm tst
+npm test
 ```

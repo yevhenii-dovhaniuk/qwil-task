@@ -2,21 +2,38 @@
   "name": "qwil-task",
   "version": "1.0.0",
   "description": "Qwil task",
-  "main": "main.js",
+  "main": "app.ts",
   "scripts": {
-    "test": "test"
+    "start": "ts-node app.ts",
+    "test": "mocha -r ts-node/register --opts ./mocha.opts",
+    "test:debug": "npm run test -- %NODE_DEBUG_OPTION%"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yevhenii-dovhaniuk/qwil-task.git"
   },
   "keywords": [
-    "node"
+    "node",
+    "typescript"
   ],
   "author": "Yevhenii Dovhaniuk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yevhenii-dovhaniuk/qwil-task/issues"
   },
-  "homepage": "https://github.com/yevhenii-dovhaniuk/qwil-task#readme"
+  "homepage": "https://github.com/yevhenii-dovhaniuk/qwil-task#readme",
+  "dependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/lodash": "^4.14.110",
+    "@types/mocha": "^5.2.4",
+    "@types/node": "^10.5.2",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0",
+    "rxjs": "^6.2.1",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {}
 }
