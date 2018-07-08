@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-## Test
+## Test (examples of usage)
 ```
 npm test
 ```
